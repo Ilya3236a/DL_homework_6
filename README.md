@@ -1,1 +1,1 @@
-# DL_homework_6
+https://ilya3236a.github.io/DL_homework_6/
