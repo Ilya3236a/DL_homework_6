@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Ilya"
+  },
+  "text": {
+    "more": "Анализ соц. сетей. Исследование проводилось на основе моей странички в ВК: https://vk.com/ilya3236a. \nЦель: исследовать взаимосвязь пользователей соц. сети \"ВКонтакте\", добавленных мною в раздел \"Друзья\"\nАнализ итогов модулярности: модулярность дала верный результат: все пользователи разбиты на верные группы.\nИтог: занесение полученных с помощью специального приложения результатов в програму Gephi. Построение соц. сети с требуемыми дополнениями.\n          Получение соц. сети, разбитой с помощью модулярности на отдеьные цветовые сегменты, выражающие связь \"друзей\" между собой. \n          Экспортирование полученной сети в формат Sigma.js. ",
+    "intro": "Анализ соц. сетей",
+    "title": "Анализ социальных сетей"
+  },
+  "legend": {
+    "edgeLabel": "Связь друзей между собой",
+    "colorLabel": "Разбивка друзей на группы: пурпурный - однокурсники и соседи по общежитию; зеленый - школьные знакомцы; голубой - знакомые с конференции в Суздале+лучшие друзья; рыжий - знакомые из СоцКома; одинарные цвета и серый - знакомые, которых нет у моих друзей; салатовый - друзья в подготовке к ЕГЭ по истории",
+    "nodeLabel": "Никнеймы друзей"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
